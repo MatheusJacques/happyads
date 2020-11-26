@@ -1,0 +1,65 @@
+* {
+
+    margin: 0px;
+    padding: 10px;
+    
+    
+    }
+    
+    
+    body {
+        height: 100vh;
+        color: white;
+    }
+    
+    body, input, button, textarea {
+    
+        font: 400 18px/1 'Nunito', sans-serif;
+    }
+    
+    
+    #page-landing {
+        background: linear-gradient(329.54deg,#29b6b1 0%, #00c7c7 100%);
+      
+        text-align: center;
+        min-height: 15vh;
+        align-items:center
+        
+    }
+    
+    #container {
+        margin: auto;
+    }
+    
+    .location, h1, .visit p {
+    height:16vh;
+    
+    }
+    
+    .visit a {
+    width: 4.7rem;
+    height: 4.7rem;
+    background: #ffd666;
+    border: none;
+    border-radius: 2rem;
+    margin: auto;
+    
+    display: flex;
+    align-items : auto;
+    justify-content: center;
+    }
+
+    
+
+
+    @media: (min-width: 760px) {
+        header {
+            display: flex;
+            align-items :center;
+            justify-content: space-between;
+        }
+
+        .location, h1, .visit p {
+            height: initial;
+        }
+    }
